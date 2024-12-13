@@ -10,3 +10,17 @@ with open('./PokeTCG.json', 'r',  encoding='utf-8-sig') as file:
 #print all cards from the set "HeartGold & SoulSilver"
 
 #print all cards where the averageSellPrice is greater than 1.5
+#data['data']
+input("name: ")
+for name in data:
+    if type == ['Fighting']:
+        print(name)
+    else:
+        print("not fighting")
+
+
+
+'''for prices in data:
+    if prices == ["normal"]:
+        print ('Pokémon')
+print ("not fighting")'''
